@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem "activesupport", ">= 5.2.4.3"
 gem 'middleman-livereload' # NOTE: breaks if placed inside a group!
 group :middleman do
   gem 'middleman', '~> 4.2'
